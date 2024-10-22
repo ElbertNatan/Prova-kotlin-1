@@ -64,7 +64,6 @@ object RhFunctions {
                     println("Salário do vendedor: ${pessoa.salario}")
                 }
             }
-            println("************************************")
         } else {
             println("Funcionário com CPF $cpf não encontrado.")
         }

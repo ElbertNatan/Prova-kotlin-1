@@ -6,7 +6,6 @@ fun main(){
     //Gerentes
     RhFunctions.cadastrarFuncionario("Francisco de Souza", "000.000.000-00", "01/01/2001", "1234")
     RhFunctions.cadastrarFuncionario("Maximus Decimus Meridius", "111.111.111-11", "02/02/2002", "5678")
-    println("\nImprimindo informações de funcionarios (individual)")
 
     //Vendedores
     RhFunctions.cadastrarFuncionario("Augusto dos Anjos", "222.222.222-22", "03/03/2003", "8910", "Brinquedos")
@@ -18,7 +17,7 @@ fun main(){
     RhFunctions.calcularSalario("000.000.000-00", 2500.0)
     RhFunctions.calcularSalario("444.444.444-44", 1500.0)
 
-    println("\nImprimindo informações de funcionarios (individual)")
+    println("\nImprimindo informações de funcionarios (individual)\n")
     //Imprimindo informações de funcionário
     //Gerentes
     RhFunctions.imprimirInformacoesFuncionario("000.000.000-00")
